@@ -97,7 +97,7 @@ client.on(`message`, async (message) => {
 [Support](https://discord.gg/5aENC4fNVj) - [Invite](https://discord.com/api/oauth2/authorize?client_id=803965149941071875&permissions=8&scope=bot)
 
 **Developers Bot** :
-CATATA#8788 - AVYAR#4293
+<@752641782705160193>
 
 **Set Status** :
 Online
@@ -106,7 +106,7 @@ Online
 25/1/2021
 
 **Prefix Bot** :
-c?
+${PREFIX}
 
 `)
 
@@ -125,13 +125,13 @@ c?
     .setDescription (`
 <:emoji_65:815251304070905857> Links
 
-[Support](https://discord.gg/5aENC4fNVj)
+[Support]()
 -
-[Invite](https://discord.com/api/oauth2/authorize?client_id=803965149941071875&permissions=8&scope=bot)`)
+[Invite]()`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**Support Zooya**`) 
-    .setThumbnail(`https://media.discordapp.net/attachments/809000331807424512/814581827192881152/image0.png`)
+    .setTitle(`**Support**`) 
+    .setThumbnail(``)
     .setTimestamp()
     
     //send the Message
@@ -202,4 +202,4 @@ function delay(delayInms) {
  });
 }
 
-//Bot coded by Tomato#6966 
+//Bot coded by itzzz exploit
