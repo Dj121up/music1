@@ -8,7 +8,7 @@ const {
 
 module.exports = {
   name: "invite",
-  aliases: ["i"],
+  aliases: ["i","inv","Inv","Invite"],
   cooldown: 8,
   description: "**all commands**",
   execute(message) {
@@ -17,7 +17,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setDescription(`
 
-<:emoji_65:815251304070905857> [Click here](https://discord.com/api/oauth2/authorize?client_id=803965149941071875&permissions=8&scope=bot) **to invite the bot.**
+ [Click here]() **to invite the bot.**
 `)
 
   
